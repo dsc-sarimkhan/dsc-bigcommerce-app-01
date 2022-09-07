@@ -58,8 +58,8 @@ const Header = () => {
     });
 
     const items = [
-        { ariaControls: 'home', id: TabIds.HOME, title: 'Home' },
-        { ariaControls: 'products', id: TabIds.PRODUCTS, title: 'Products' },
+        { ariaControls: 'home', id: TabIds.HOME, title: 'DSC Home Page' },
+        { ariaControls: 'products', id: TabIds.PRODUCTS, title: 'DSC Products Page' },
     ];
 
     const handleTabClick = (tabId: string) => {
