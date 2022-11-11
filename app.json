@@ -1,0 +1,30 @@
+{
+  "name": "BigCommerce Sample App",
+  "description": "A sample NodeJS app installable on BigCommerce stores",
+  "repository": "https://github.com/bigcommerce/sample-app-nodejs",
+  "keywords": ["Node", "Heroku"],
+  "addons": ["cleardb:ignite"],
+  "env": {
+    "CLIENT_ID": {
+      "description": "hnpbp7repaqv87l408c2zbl9ocmotai"
+    },
+    "CLIENT_SECRET":{
+      "description": "4297db2adf5cb5bac836b07da68c4b2313886dcef9150ec4c08cc559f3f05c41"
+    },
+    "AUTH_CALLBACK":{
+      "description": "The fully qualified authentication endpoint provided by this app. Replace the app name with the app name chosen above.",
+      "value": "https://<APP NAME>.herokuapp.com/api/auth"
+    },
+    "DB_TYPE":{
+      "description": "Which type of database we are using. Options are 'mysql' or 'firebase'. Can safely leave unchanged.",
+      "value": "mysql"
+    },
+    "JWT_KEY":{
+      "description": "Key the app will use for signing JWT. Can safely leave unchanged.",
+      "generator": "secret"
+    }
+  },
+  "scripts": {
+    "postdeploy": "npm run db:setup"
+  }
+}

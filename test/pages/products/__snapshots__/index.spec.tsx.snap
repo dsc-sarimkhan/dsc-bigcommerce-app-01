@@ -1,0 +1,602 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product List renders correctly 1`] = `
+<div
+  class="styled__StyledBox-sc-sj5f1m-0 cmToHM styled__StyledPanel-sc-1h6ef3q-0 dJwQJf"
+  id="products"
+>
+  <div
+    aria-controls="bd-table-1"
+    class="styled__StyledFlex-sc-yxkzj0-0 dwirIV"
+  >
+    <div
+      class="styled__StyledBox-sc-sj5f1m-0 ebVyxh styled__StyledFlexItem-sc-smjqtt-0 dKgbvr"
+    >
+      <p
+        class="styled__StyledText-sc-tqnj75-5 dHKtpA"
+      >
+        5 Products
+      </p>
+    </div>
+    <div
+      class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlexItem-sc-smjqtt-0 dKgbvr styled__StyledPaginationContainer-sc-1w0s9nk-0 kWwQla"
+    >
+      <div
+        aria-label="pagination"
+        class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlex-sc-hcvk8l-0 fzBpqP"
+        role="navigation"
+      >
+        <div
+          class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlexItem-sc-smjqtt-0 hBNgMm"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledBox-sc-2535c9-0 eoUFsY"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="bd-dropdown-2-label bd-dropdown-2-toggle-button"
+              class="styled__StyledButton-sc-3yq204-0 coPpEc styled__StyledButton-sc-12shuvi-0 eCaiuP"
+              id="bd-dropdown-2-toggle-button"
+            >
+              <span
+                class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+              >
+                1 - 5 of 5
+                <svg
+                  aria-hidden="true"
+                  class="base__StyledIcon-sc-a9u0e1-0 hMuLSB"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M8.71 11.71l2.59 2.59c.39.39 1.02.39 1.41 0l2.59-2.59c.63-.63.18-1.71-.71-1.71H9.41c-.89 0-1.33 1.08-.7 1.71z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="styled__StyledBox-sc-sj5f1m-0 jZjBTX"
+              style="position: fixed; left: 0px; top: 0px; transform: translate(0px, 4px);"
+            >
+              <ul
+                aria-labelledby="bd-dropdown-2-label"
+                class="styled__StyledList-sc-5w3dcq-0 iPQrcI"
+                id="bd-dropdown-2-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlexItem-sc-smjqtt-0 hBNgMm"
+        >
+          <button
+            class="styled__StyledButton-sc-3yq204-0 gPJsqx styled__StyledButton-sc-12shuvi-0 eCaiuP"
+            disabled=""
+          >
+            <span
+              class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+            >
+              <svg
+                aria-labelledby="bd-icon-4"
+                class="base__StyledIcon-sc-a9u0e1-0 fLZzZV"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <title
+                  id="bd-icon-4"
+                >
+                  Previous page
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M14.71 6.71a.996.996 0 00-1.41 0L8.71 11.3a.996.996 0 000 1.41l4.59 4.59a.996.996 0 101.41-1.41L10.83 12l3.88-3.88c.39-.39.38-1.03 0-1.41z"
+                />
+              </svg>
+            </span>
+          </button>
+          <button
+            class="styled__StyledButton-sc-3yq204-0 gPJsqx styled__StyledButton-sc-12shuvi-0 eCaiuP"
+            disabled=""
+          >
+            <span
+              class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+            >
+              <svg
+                aria-labelledby="bd-icon-5"
+                class="base__StyledIcon-sc-a9u0e1-0 fLZzZV"
+                fill="currentColor"
+                height="24"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <title
+                  id="bd-icon-5"
+                >
+                  Next page
+                </title>
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M9.29 6.71a.996.996 0 000 1.41L13.17 12l-3.88 3.88a.996.996 0 101.41 1.41l4.59-4.59a.996.996 0 000-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <table
+    class="styled__StyledTable-sc-xns2ns-1 fFnuuU"
+    id="bd-table-1"
+  >
+    <thead
+      class="styled__StyledTableHead-sc-1p8j1x-0"
+    >
+      <tr>
+        <th
+          class="styled__StyledTableHeaderCell-sc-1opnvtt-0 dvHkCM"
+          id="header-cell-0"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlex-sc-hcvk8l-0 kjJEwL styled__StyledFlex-sc-1opnvtt-2 fHZHsY"
+          >
+            Product name
+          </div>
+        </th>
+        <th
+          class="styled__StyledTableHeaderCell-sc-1opnvtt-0 dvHkCM"
+          id="header-cell-1"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlex-sc-hcvk8l-0 kjJEwL styled__StyledFlex-sc-1opnvtt-2 fHZHsY"
+          >
+            Stock
+          </div>
+        </th>
+        <th
+          class="styled__StyledTableHeaderCell-sc-1opnvtt-0 dvHkCM"
+          id="header-cell-2"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlex-sc-hcvk8l-0 kjJEwL styled__StyledFlex-sc-1opnvtt-2 fHZHsY"
+          >
+            Price
+          </div>
+        </th>
+        <th
+          class="styled__StyledTableHeaderCell-sc-1opnvtt-0 eCGJDY"
+          id="header-cell-3"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledFlex-sc-hcvk8l-0 kjJEwL styled__StyledFlex-sc-1opnvtt-2 clbcZv"
+          >
+            Action
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="styled__StyledTableBody-sc-1bwe2hn-0"
+    >
+      <tr
+        class="styled__StyledTableRow-sc-xq0hr0-0 dgKQdt"
+      >
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <a
+            class="styled__StyledLink-sc-n9mww9-0 hLvkUi"
+          >
+            Product 0
+          </a>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <p
+            class="styled__StyledSmall-sc-tqnj75-6 hzfHcZ"
+            color="danger"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          $10.00
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledBox-sc-2535c9-0 eoUFsY"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="bd-dropdown-10-label bd-dropdown-10-toggle-button"
+              class="styled__StyledButton-sc-3yq204-0 gPJsqx bd-button"
+              id="bd-dropdown-10-toggle-button"
+            >
+              <span
+                class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="base__StyledIcon-sc-a9u0e1-0 kNdtCN"
+                  color="secondary60"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="styled__StyledBox-sc-sj5f1m-0 jZjBTX"
+              style="position: absolute; left: 0px; top: 0px;"
+            >
+              <ul
+                aria-labelledby="bd-dropdown-10-label"
+                class="styled__StyledList-sc-5w3dcq-0 iPQrcI"
+                id="bd-dropdown-10-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="styled__StyledTableRow-sc-xq0hr0-0 dgKQdt"
+      >
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <a
+            class="styled__StyledLink-sc-n9mww9-0 hLvkUi"
+          >
+            Product 1
+          </a>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <p
+            class="styled__StyledSmall-sc-tqnj75-6 hzfHcZ"
+            color="danger"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          $20.00
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledBox-sc-2535c9-0 eoUFsY"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="bd-dropdown-12-label bd-dropdown-12-toggle-button"
+              class="styled__StyledButton-sc-3yq204-0 gPJsqx bd-button"
+              id="bd-dropdown-12-toggle-button"
+            >
+              <span
+                class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="base__StyledIcon-sc-a9u0e1-0 kNdtCN"
+                  color="secondary60"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="styled__StyledBox-sc-sj5f1m-0 jZjBTX"
+              style="position: absolute; left: 0px; top: 0px;"
+            >
+              <ul
+                aria-labelledby="bd-dropdown-12-label"
+                class="styled__StyledList-sc-5w3dcq-0 iPQrcI"
+                id="bd-dropdown-12-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="styled__StyledTableRow-sc-xq0hr0-0 dgKQdt"
+      >
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <a
+            class="styled__StyledLink-sc-n9mww9-0 hLvkUi"
+          >
+            Product 2
+          </a>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <p
+            class="styled__StyledSmall-sc-tqnj75-6 hzfHcZ"
+            color="danger"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          $30.00
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledBox-sc-2535c9-0 eoUFsY"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="bd-dropdown-14-label bd-dropdown-14-toggle-button"
+              class="styled__StyledButton-sc-3yq204-0 gPJsqx bd-button"
+              id="bd-dropdown-14-toggle-button"
+            >
+              <span
+                class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="base__StyledIcon-sc-a9u0e1-0 kNdtCN"
+                  color="secondary60"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="styled__StyledBox-sc-sj5f1m-0 jZjBTX"
+              style="position: absolute; left: 0px; top: 0px;"
+            >
+              <ul
+                aria-labelledby="bd-dropdown-14-label"
+                class="styled__StyledList-sc-5w3dcq-0 iPQrcI"
+                id="bd-dropdown-14-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="styled__StyledTableRow-sc-xq0hr0-0 dgKQdt"
+      >
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <a
+            class="styled__StyledLink-sc-n9mww9-0 hLvkUi"
+          >
+            Product 3
+          </a>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <p
+            class="styled__StyledSmall-sc-tqnj75-6 hzfHcZ"
+            color="danger"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          $40.00
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledBox-sc-2535c9-0 eoUFsY"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="bd-dropdown-16-label bd-dropdown-16-toggle-button"
+              class="styled__StyledButton-sc-3yq204-0 gPJsqx bd-button"
+              id="bd-dropdown-16-toggle-button"
+            >
+              <span
+                class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="base__StyledIcon-sc-a9u0e1-0 kNdtCN"
+                  color="secondary60"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="styled__StyledBox-sc-sj5f1m-0 jZjBTX"
+              style="position: absolute; left: 0px; top: 0px;"
+            >
+              <ul
+                aria-labelledby="bd-dropdown-16-label"
+                class="styled__StyledList-sc-5w3dcq-0 iPQrcI"
+                id="bd-dropdown-16-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="styled__StyledTableRow-sc-xq0hr0-0 dgKQdt"
+      >
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <a
+            class="styled__StyledLink-sc-n9mww9-0 hLvkUi"
+          >
+            Product 4
+          </a>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <p
+            class="styled__StyledSmall-sc-tqnj75-6 hzfHcZ"
+            color="danger"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          $50.00
+        </td>
+        <td
+          class="styled__StyledTableDataCell-sc-16y6nzi-0 clMuhg"
+        >
+          <div
+            class="styled__StyledBox-sc-sj5f1m-0 ciDApE styled__StyledBox-sc-2535c9-0 eoUFsY"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="bd-dropdown-18-label bd-dropdown-18-toggle-button"
+              class="styled__StyledButton-sc-3yq204-0 gPJsqx bd-button"
+              id="bd-dropdown-18-toggle-button"
+            >
+              <span
+                class="styled__ContentWrapper-sc-3yq204-1 cqsmIZ"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="base__StyledIcon-sc-a9u0e1-0 kNdtCN"
+                  color="secondary60"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="24"
+                >
+                  <path
+                    d="M0 0h24v24H0V0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="styled__StyledBox-sc-sj5f1m-0 jZjBTX"
+              style="position: absolute; left: 0px; top: 0px;"
+            >
+              <ul
+                aria-labelledby="bd-dropdown-18-label"
+                class="styled__StyledList-sc-5w3dcq-0 iPQrcI"
+                id="bd-dropdown-18-menu"
+                role="listbox"
+                tabindex="-1"
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
